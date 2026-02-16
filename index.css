@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CabinCondensedBold';
+  src: url('/fonts/CabinCondensed/Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ShadowsIntoLight';
+  src: url('/fonts/ShadowsIntoLight.ttf') format('truetype');
+}
+
+.swiper-pagination-bullet-active {
+  background: #F97415 !important;
+}

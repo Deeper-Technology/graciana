@@ -74,9 +74,9 @@ export default function Feedbacks() {
     window.addEventListener('resize', handleResize);
 
     return (
-        <section className="pb-30 pt-10 bg-white justify-center text-center items-center flex-col gap-20">
+        <section className="pb-30 pt-10 justify-center text-center items-center flex-col gap-24">
             <h2 className="font-[Inter] font-bold text-xl text-center md:text-2xl text-[#504E4F]">Depoimentos</h2>
-            <span className="lg:w-[70%] px-8 justify-center items-center self-center flex flex-col pt-4">
+            <span className="lg:w-[75%] place-self-center px-8 py-5 pt-6 justify-center items-center self-center flex flex-col">
                 <p className="font-[Roboto] font-light text-justify text-sm text-[#656565]">
                     Conheça os depoimentos de jovens que passaram por aqui e transformaram sua forma de ver o futuro. Você vai ler histórias de adolescentes e jovens adultos que chegaram inseguros, confusos ou sobrecarregados, e que, com acolhimento, escuta e orientação, conseguiram enxergar novos caminhos, com mais confiança e sentido.
                 </p>

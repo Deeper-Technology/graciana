@@ -4,7 +4,7 @@ export default function AboutMe() {
             <img src="/image/graciana_about_me.png" alt="Adolescente Icon" className="w-86 select-none mt-2"/>
             <span className="flex flex-col max-md:w-[85%] w-[40%] gap-8">
                 <h2 className="font-[Inter] font-bold text-xl md:text-2xl max-w-fit text-[#504E4F]">Sobre Mim</h2>
-                <p className="font-[Roboto] font-light text-justify max-md:text-sm text-[#656565]" >
+                <p className="font-[Roboto] font-light text-justify text-[#656565]">
                     Psicóloga por formação, parceira de jornadas por vocação.
                     <br/><br/>Sou Graciana Stumpf Heck, psicóloga formada pela PUCRS em 2004, com formação em Psicanálise pela SIG. Ao longo dos anos, especializei-me também em Liderança Estratégica de Negócios e Pessoas pela ESPM, e fiz formação em Coaching pela SBCoaching, com foco em Desenvolvimento de Carreira e Orientação Vocacional.
                     <br/><br/>Já trabalhei com psicoterapia de diversas faixas etárias, mas foi com os jovens que encontrei meu verdadeiro propósito: estar ao lado deles enquanto constroem sua identidade, enfrentam pressões, fazem escolhas importantes e, muitas vezes, se sentem perdidos.

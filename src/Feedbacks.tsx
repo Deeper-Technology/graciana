@@ -77,7 +77,7 @@ export default function Feedbacks() {
         <section className="pb-30 pt-10 justify-center text-center items-center flex-col gap-24">
             <h2 className="font-[Inter] font-bold text-xl text-center md:text-2xl text-[#504E4F]">Depoimentos</h2>
             <span className="lg:w-[75%] place-self-center px-8 py-5 pt-6 justify-center items-center self-center flex flex-col">
-                <p className="font-[Roboto] font-light text-justify text-sm text-[#656565]">
+                <p className="font-[Roboto] font-light text-justify text-[#656565]">
                     Conheça os depoimentos de jovens que passaram por aqui e transformaram sua forma de ver o futuro. Você vai ler histórias de adolescentes e jovens adultos que chegaram inseguros, confusos ou sobrecarregados, e que, com acolhimento, escuta e orientação, conseguiram enxergar novos caminhos, com mais confiança e sentido.
                 </p>
             </span>
@@ -89,11 +89,11 @@ export default function Feedbacks() {
                     <FeedbackVideo video={Video1} name="Manoela Zanini" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FeedbackVideo video={Video2} name="Bárbara Muller Rocha"/>
+                    <FeedbackVideo video={Video2} name="Bárbara Barbosa"/>
                 </SwiperSlide>
             </Swiper> : <div className="flex md:flex-row flex-col justify-center gap-8 p-10">
                 <FeedbackVideo video={Video1} name="Manoela Zanini" />
-                <FeedbackVideo video={Video2} name="Bárbara Muller Rocha" />
+                <FeedbackVideo video={Video2} name="Bárbara Barbosa" />
             </div> }
             <Swiper modules={[Pagination]} style={{ paddingBlock: '50px', paddingInline: '20px' }} onActiveIndexChange={(state) => setSlidesTextIndex(state.realIndex)} pagination loop breakpoints={{
                 240: {
@@ -107,7 +107,7 @@ export default function Feedbacks() {
                 }
             }} slidesPerView={3} spaceBetween={50}>
                 <SwiperSlide>
-                    <FeedbackText opacity={(slidesTextIndex === 0 || slidesTextIndex === 4) && width > 900 ? '50%' : '100%'} name="Ingrid Schneider" text="Conhecemos a Graciana através de recomendações de mães do colégio q meu filho estudava , e os elogios ao seu trabalho se confirmaram. É uma profissional muito competente e afetuosa , atendendo nosso filho com muita dedicação frente às incertezas dele quanto ao futuro profissional.  O resultado do trabalho foi dentro de uma área de atuação ligada ao meio ambiente,  e hoje ele está cursando Engenharia Ambiental na UFRGS. Além disso criamos um vínculo de muito carinho e admiração." />
+                    <FeedbackText opacity={(slidesTextIndex === 0 || slidesTextIndex === 4) && width > 900 ? '50%' : '100%'} name="Ingrid Schneider" text="Conhecemos a Graciana através de recomendações de mães do colégio que meu filho estudava, e os elogios ao seu trabalho se confirmaram. É uma profissional muito competente e afetuosa, atendendo nosso filho com muita dedicação frente às incertezas dele quanto ao futuro profissional. O resultado do trabalho foi dentro de uma área de atuação ligada ao meio ambiente, e hoje ele está cursando Engenharia Ambiental na UFRGS. Além disso criamos um vínculo de muito carinho e admiração." />
                 </SwiperSlide>
                 <SwiperSlide>
                     <FeedbackText opacity={(slidesTextIndex === 1 || slidesTextIndex === 5) && width > 900 ? '50%' : '100%'} name="Bárbara Muller Rocha" nameTitle="Estudante de Medicina" text="Fiz a orientação vocacional com a Graciana em 2023, no 3º ano do ensino médio, numa fase cheia de incertezas e questionamentos. Além das dúvidas sobre qual curso seguir, eu também tava lidando com questões pessoais que me deixavam ainda mais perdida. A Graciana, com toda sua sensibilidade e calma, conduziu as sessões com muita escuta e aconselhamentos, me deixando à vontade pra falar de tudo.  Os testes que fizemos, junto com as conversas, foram fundamentais para mostrar o meu caminho.  Mesmo com os medos e inseguranças, fui entendendo que Medicina era o que fazia sentido pra mim. No fim, ela não só me ajudou a fazer essa escolha com mais confiança, como também virou minha psicologa." />
@@ -116,10 +116,10 @@ export default function Feedbacks() {
                     <FeedbackText opacity={(slidesTextIndex === 0 || slidesTextIndex === 2) && width > 900 ? '50%' : '100%'} name="Isabel Müssnich" text="Eu estava no segundo ano do Ensino Médio e ainda não tinha nenhum norte sobre o que pretendia cursar. Por isso, fui atrás de alguém que pudesse me ajudar e, através de uma recomendação encontrei a Graciana. Todas as consultas com ela foram muito leves e me ajudaram a entender muito mais sobre mim e sobre os meus interesses. Terminei as sessões muito feliz e com uma faculdade já escolhida. Todos os métodos utilizados foram muito legais e ajudaram a construir esse 'quebra-cabeça' de uma forma super interativa. Tenho muito carinho por essa profissional incrível e sou muito feliz com o resultado que atingi através da ajuda dela!" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FeedbackText opacity={(slidesTextIndex === 1 || slidesTextIndex === 3 ) && width > 900 ? '50%' : '100%'} name="Stela Schmitz do Nascimento" nameTitle="Estudante de Direito" text="Conhecemos a Graciana através de recomendações de mães do colégio q meu filho estudava , e os elogios ao seu trabalho se confirmaram. É uma profissional muito competente e afetuosa , atendendo nosso filho com muita dedicação frente às incertezas dele quanto ao futuro profissional.  O resultado do trabalho foi dentro de uma área de atuação ligada ao meio ambiente,  e hoje ele está cursando Engenharia Ambiental na UFRGS. Além disso criamos um vínculo de muito carinho e admiração." />
+                    <FeedbackText opacity={(slidesTextIndex === 1 || slidesTextIndex === 3 ) && width > 900 ? '50%' : '100%'} name="Stela Schmitz do Nascimento" nameTitle="Estudante de Administração" text="Fazer orientação vocacional foi essencial no meu processo de escolha profissional. Durante o ensino médio, eu estava bastante confusa sobre qual carreira seguir, dividida entre duas áreas completamente diferentes: uma movida pela razão e outra pela paixão de aprender. Ao longo das consultas, a Graciana me ajudou a perceber que meu interesse pela segunda área estava muito mais ligado ao desejo de aplicar o conhecimento na minha vida pessoal do que em exercer uma profissão nela. Eu não me via atuando nessa área no futuro, mas sim levando o aprendizado para o meu dia a dia. Além disso, os questionários e desafios propostos por ela contribuíram não só para minha decisão, mas também para um profundo processo de autoconhecimento. Hoje, sou apaixonada pela área que escolhi e pelo trabalho que desempenho." />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FeedbackText opacity={(slidesTextIndex === 2 || slidesTextIndex === 4) && width > 900 ? '50%' : '100%'} name="Camila Kondageski Medeiros" text="Conheci a Graciana em 2023, quando fiz uma orientação vocacional com ela, que me ajudou muito a escolher o curso que faço hoje, deixando claro minhas maiores afinidades através de diversos tipos de testes. Porém, me senti tão acolhida nos encontros, que até hoje faço psicoterapia com ela, me apaixonando pelo seu trabalho." />
+                    <FeedbackText opacity={(slidesTextIndex === 2 || slidesTextIndex === 4) && width > 900 ? '50%' : '100%'} name="Camila Kondageski Medeiros" nameTitle="Estudante de Medicina" text="Conheci a Graciana em 2023, quando fiz uma orientação vocacional com ela, que me ajudou muito a escolher o curso que faço hoje, deixando claro minhas maiores afinidades através de diversos tipos de testes. Porém, me senti tão acolhida nos encontros, que até hoje faço psicoterapia com ela, me apaixonando pelo seu trabalho." />
                 </SwiperSlide>
                 <SwiperSlide>
                     <FeedbackText opacity={(slidesTextIndex === 3 || slidesTextIndex === 5 ) && width > 900 ? '50%' : '100%'} name="Thiago Bittencourt" text="Graciana é uma profissional exemplar, me auxilou a decidir meu futuro por meio de sua didática, métodos e estudos. Sempre me senti extremamente acolhido e a vontade no ambiente das consultas. A experiência varia para cada indivíduo, porém é fundamental para qualquer um que esteja em dúvida em relação a sua vocação." />
